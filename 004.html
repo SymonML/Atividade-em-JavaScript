@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+        background: rgb(21, 39, 202);
+        color: rgb(224, 33, 33);
+        font: normal 18pt Arial;
+    }
+    </style>
+    
+</head>
+<body>
+    <h1>Atividade DOM!</h1>
+    <p>Aprendendo usar <strong>DOM</strong> em JS</p>
+    <p>Aqui vai o resultado</p>
+    <div>Clique aqui</div>
+    <script>
+        var p1 = document.getElementsByName('p')[0];
+        document.write(`Está escrito assim: ${p1.innerText}`);
+    </script>
+</body>
+</html>
